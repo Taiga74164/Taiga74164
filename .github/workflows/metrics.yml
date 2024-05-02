@@ -1,0 +1,66 @@
+name: Metrics
+on:
+  # Schedule hourly updates
+  schedule: [{cron: "0 * * * *"}]
+  # (optional) Run workflow manually
+  workflow_dispatch:
+  # (optional) Run workflow when pushing on master/main
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          user: Taiga74164
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Canada/Mountain
+          plugin_traffic: yes
+          plugin_lines: yes
+          plugin_lines_history_limit: 3
+          plugin_lines_repositories_limit: 30
+          plugin_lines_sections: base, header, activity, community, repositories, metadata
+      - name: Full-year calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+      - name: Most used
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          commits_authoring: Taiga74164, Taiga74164@users.noreply.github.com
+          plugin_languages: yes
+          plugin_languages_skipped: Taiga74164
+          plugin_languages_limit: 24
+          plugin_languages_threshold: 0%
+          plugin_languages_colors: github
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_load: 300
+          plugin_languages_recent_days: 14
+      - name: Recently starred
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 3
