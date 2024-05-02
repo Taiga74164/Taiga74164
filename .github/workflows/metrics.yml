@@ -27,7 +27,7 @@ jobs:
           plugin_lines: yes
           plugin_lines_history_limit: 3
           plugin_lines_repositories_limit: 30
-          plugin_lines_sections: base, header, activity, community, repositories, metadata
+          plugin_lines_sections: base, repositories, history
       - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
@@ -64,3 +64,12 @@ jobs:
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
+      - name: LeetCode
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.leetcode.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_leetcode_user: taiga74164
+          plugin_leetcode: yes
+          plugin_leetcode_sections: solved, skills
