@@ -24,7 +24,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Canada/Mountain
-          repositories_skipped: taiga74164.github.io, Taiga74164, Slime-Bounce, A1, GP1_Final_Assignment 
+          repositories_skipped: taiga74164.github.io, Taiga74164, Slime-Bounce, A1, GP1_Final_Assignment, DiffMind
 
           plugin_traffic: yes
           plugin_gists: yes
