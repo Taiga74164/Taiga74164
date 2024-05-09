@@ -30,6 +30,7 @@ jobs:
           plugin_gists: yes
           plugin_lines: yes
           plugin_lines_history_limit: 3
+          plugin_lines_delay: 30
           plugin_lines_repositories_limit: 10
           plugin_lines_sections: base, repositories
       - name: Full-year calendar
