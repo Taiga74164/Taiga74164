@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>KyleBanks/scene-ref-attribute</span>
-                                        <span>starred 5 hours ago</span>
+                                        <span>starred 6 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Unity C# attribute for serializing component and interface references within the scene or prefab during OnValidate.</div>
