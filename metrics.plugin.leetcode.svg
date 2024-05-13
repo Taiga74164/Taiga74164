@@ -19,8 +19,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge all">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="1.2533333333333334 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">12</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="1.357777777777778 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">13</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/3150</text>
                                 </svg>
                                 <span class="title">All</span>
@@ -28,8 +28,8 @@
                             <div class="category column">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="50" height="50" class="gauge easy">
                                     <circle class="gauge-base" r="53" cx="60" cy="60"/>
-                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="2.9005037783375314 329"/>
-                                    <text x="60" y="50" dominant-baseline="central">7</text>
+                                    <circle class="gauge-arc" transform="rotate(-90 60 60)" r="53" cx="60" cy="60" stroke-dasharray="3.3148614609571787 329"/>
+                                    <text x="60" y="50" dominant-baseline="central">8</text>
                                     <text x="60" y="80" dominant-baseline="central" class="secondary">/794</text>
                                 </svg>
                                 <span class="title">Easy</span>
@@ -69,9 +69,10 @@
                         <div class="label advanced"><span class="dot">⬤</span> Divide and Conquer <span class="count">x2</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Hash Table <span class="count">x2</span></div>
                         <div class="label intermediate"><span class="dot">⬤</span> Binary Search <span class="count">x2</span></div>
+                        <div class="label intermediate"><span class="dot">⬤</span> Recursion <span class="count">x1</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Sorting <span class="count">x1</span></div>
                         <div class="label fundamental"><span class="dot">⬤</span> Stack <span class="count">x1</span></div>
-                        <div class="label fundamental"><span class="dot">⬤</span> Two Pointers <span class="count">x1</span></div>
+                        <div class="label fundamental"><span class="dot">⬤</span> Linked List <span class="count">x1</span></div>
                     </div>
                 </section>
             </section>
