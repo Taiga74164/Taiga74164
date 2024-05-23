@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>techiew/DirectXHook</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">DirectX 11/12 hook including a simple overlay framework.</div>
@@ -70,7 +70,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>illegal-instruction-co/ThreadIn</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Freeze target threads (external - internal ) by avoiding SuspendThread detections. Or access registers from start address.</div>
@@ -117,7 +117,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>illegal-instruction-co/SleepTrigger</span>
-                                        <span>starred 13 hours ago</span>
+                                        <span>starred 14 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">x86 Shellcode Execution With Sleep Hook</div>
