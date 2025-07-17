@@ -70,7 +70,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>DGA-MI-SSI/YaCo</span>
-                                        <span>starred 7 hours ago</span>
+                                        <span>starred 8 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">YaCo is an Hex-Rays IDA plugin. When enabled, multiple users can work simultaneously on the same binary. Any modification done by any user is synchronized through git version control.</div>
@@ -123,7 +123,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>luis22d/Chrome-DLL-Hijacking</span>
-                                        <span>starred 21 hours ago</span>
+                                        <span>starred 22 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">DLL Hijacking/Proxying, replaces chrome_elf.dll, with yours, so whenever chrome runs, it downloads and runs your payload</div>
