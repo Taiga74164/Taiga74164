@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>S1lkys/AudioDG.exe-DLL-Hijacking-for-LPE</span>
-                                        <span>starred 3 hours ago</span>
+                                        <span>starred 6 hours ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Audiodg.exe DLL hijacking for LPE with reboot-free restart primitive. Executes code as LOCAL SERVICE, escalates to SYSTEM via Scheduled Tasks.</div>
@@ -123,7 +123,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>kem0x/Memcury</span>
-                                        <span>starred 11 days ago</span>
+                                        <span>starred 12 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A simple one header solution for memory manipulation in C++.</div>
