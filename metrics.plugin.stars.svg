@@ -23,7 +23,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>iamsopotatoe-coder/TinyLoad</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">simple PE packer/crypter for Windows. compresses and encrypts executables with a custom virtual machine into a self-extracting stub.</div>
@@ -76,7 +76,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>Imrglop/IDA-FastAnalysis</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">IDA Pro plugin that speeds up the initial binary auto analysis through caching and multithreaded analysis</div>
@@ -129,7 +129,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>hACKCASCAC/ObfusHunter</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">🛡️ Advanced PE obfuscation &amp; protection detector. Scans binaries for Obfus.h signatures, anti-debug mechanisms, virtualization dispatchers, and dynamically built string loops. Includes highly accurate Tiny C Compiler (TCC) recognition for malware analysis.</div>
